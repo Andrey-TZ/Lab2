@@ -8,7 +8,7 @@ import ru.ifmo.se.pokemon.Type;
 
 // Raises user's Defense by one stage.
 public class DefenseCurl extends StatusMove {
-    public DefenseCurl() {super(Type.NORMAL, 0, 1);}
+    public DefenseCurl() {super(Type.NORMAL, 0, 100);}
 
     @Override
     protected void applySelfEffects(Pokemon pok){
@@ -16,5 +16,5 @@ public class DefenseCurl extends StatusMove {
     }
 
     @Override
-    protected String describe() {return "uses Defense Curl";}
+    protected String describe() {return "активирует Defense Curl";}
 }

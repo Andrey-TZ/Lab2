@@ -8,7 +8,7 @@ import ru.ifmo.se.pokemon.Type;
 // Paralyzes the target.
 public class ThunderWave extends StatusMove {
     public ThunderWave() {
-        super(Type.ELECTRIC, 0, 0.9);
+        super(Type.ELECTRIC, 0, 90);
     }
 
     @Override
@@ -17,5 +17,5 @@ public class ThunderWave extends StatusMove {
     }
 
     @Override
-    protected String describe() {return "uses Thunder Wave";}
+    protected String describe() {return "использует Thunder Wave";}
 }

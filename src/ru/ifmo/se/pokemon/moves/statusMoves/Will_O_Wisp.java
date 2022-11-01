@@ -8,7 +8,7 @@ import ru.ifmo.se.pokemon.Type;
 // Burns the target.
 
 public class Will_O_Wisp extends StatusMove {
-    public Will_O_Wisp(){ super(Type.FIRE, 0, 0.85);}
+    public Will_O_Wisp(){ super(Type.FIRE, 0, 85);}
 
     @Override
     protected void applyOppEffects(Pokemon pok) {
@@ -17,7 +17,7 @@ public class Will_O_Wisp extends StatusMove {
 
     @Override
     protected String describe() {
-        return "uses Will-O-Wisp";
+        return "использует Will-O-Wisp";
     }
 
 }

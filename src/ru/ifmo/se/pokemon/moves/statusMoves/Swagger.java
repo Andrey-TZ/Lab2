@@ -5,7 +5,7 @@ import ru.ifmo.se.pokemon.*;
 // Raises the target's Attack by two stages and confuses the target.
 public class Swagger extends StatusMove {
     public Swagger(){
-        super(Type.NORMAL, 0, 0.85);
+        super(Type.NORMAL, 0, 85);
     }
 
     @Override
@@ -16,6 +16,6 @@ public class Swagger extends StatusMove {
 
     @Override
     protected String describe() {
-        return "uses Swagger";
+        return "использует Swagger";
     }
 }

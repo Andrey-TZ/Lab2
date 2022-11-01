@@ -10,17 +10,17 @@ import ru.ifmo.se.pokemon.Type;
 
 public class DracoMeteor extends SpecialMove {
     public DracoMeteor() {
-        super(Type.DRAGON, 130, 0.9);
+        super(Type.DRAGON, 130, 90);
     }
 
     @Override
     protected void applySelfEffects(Pokemon pok) {
-        pok.setMod(Stat.SPECIAL_ATTACK, 2);
+        pok.setMod(Stat.SPECIAL_ATTACK, -2);
     }
 
     @Override
     protected String describe() {
-        return "uses Draco Meteor";
+        return "использует Draco Meteor";
     }
 
 }

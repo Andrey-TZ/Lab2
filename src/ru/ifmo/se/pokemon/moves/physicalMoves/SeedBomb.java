@@ -4,8 +4,8 @@ import ru.ifmo.se.pokemon.PhysicalMove;
 import ru.ifmo.se.pokemon.Type;
 
 public class SeedBomb extends PhysicalMove {
-    public SeedBomb(){super(Type.GRASS, 80, 1);}
+    public SeedBomb(){super(Type.GRASS, 80, 100);}
 
     @Override
-    protected String describe() {return "uses Seed Bomb";}
+    protected String describe() {return "использует Seed Bomb";}
 }

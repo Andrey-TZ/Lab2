@@ -7,11 +7,11 @@ import java.util.Random;
 
 public class DoubleSlap extends PhysicalMove {
     public DoubleSlap() {
-        super(Type.NORMAL, 15, 0.85);
+        super(Type.NORMAL, 15, 85);
         int[] matrix = {2, 2, 2, 3, 3, 3, 4, 5};
-        this.hits = matrix[Math.round(new Random().nextInt(9))];
+        this.hits = matrix[Math.round(new Random().nextInt(8))];
     }
 
     @Override
-    protected String describe(){return "uses Double Slap";}
+    protected String describe(){return "использует Double Slap";}
 }

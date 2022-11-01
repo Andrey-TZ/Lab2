@@ -6,16 +6,15 @@ import ru.ifmo.se.pokemon.Stat;
 import ru.ifmo.se.pokemon.Type;
 
 public class Bulldoze extends PhysicalMove {
-    public Bulldoze(){super(Type.GROUND, 60, 1);}
+    public Bulldoze(){super(Type.GROUND, 60, 100);}
 
     @Override
     protected void applyOppEffects(Pokemon pok) {
         pok.setMod(Stat.SPEED, -1);
-        super.applyOppEffects(pok);
     }
 
     @Override
     protected String describe() {
-        return "uses Bulldoze";
+        return "использует Bulldoze";
     }
 }

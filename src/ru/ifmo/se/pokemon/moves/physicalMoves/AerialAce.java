@@ -7,7 +7,7 @@ import ru.ifmo.se.pokemon.Type;
 
 public class AerialAce extends PhysicalMove {
     public AerialAce() {
-        super(Type.FLYING, 60, 1);
+        super(Type.FLYING, 60, 100);
     }
 
     @Override
@@ -17,7 +17,7 @@ public class AerialAce extends PhysicalMove {
 
     @Override
     protected String describe() {
-        return "uses Aerial Ace";
+        return "использует Aerial Ace";
     }
 
 }

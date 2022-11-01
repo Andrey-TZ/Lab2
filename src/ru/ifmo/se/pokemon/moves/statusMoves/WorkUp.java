@@ -9,7 +9,7 @@ import ru.ifmo.se.pokemon.Type;
 
 public class WorkUp extends StatusMove {
     public WorkUp() {
-        super(Type.NORMAL, 0, 1);
+        super(Type.NORMAL, 0, 100);
     }
 
     @Override
@@ -20,6 +20,6 @@ public class WorkUp extends StatusMove {
 
     @Override
     protected String describe() {
-        return "uses Work up";
+        return "использует Work up";
     }
 }
